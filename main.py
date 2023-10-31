@@ -7,7 +7,7 @@ def encoder(password):
         b = str(b)
         a = a+b
     return a
-
+#Abhinav Yarragunta
 def decoder(password):
     password = list(password)
     for i in range(len(password)):
